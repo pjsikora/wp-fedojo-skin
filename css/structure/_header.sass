@@ -1,0 +1,24 @@
+.header
+  position: fixed
+  z-index: 9999
+  top: 0
+  left: 0
+  width: 100%
+  padding: 0 20px
+  +tac
+  background: #000
+
+  ul
+    +memuMultilevel
+    +dib
+    font:
+      family: "Open Sans", sans-serf
+      weight: 600
+    & > ul
+      background: #000
+  a
+    color: white
+    +tdn
+
+main
+  padding: 50px 0
