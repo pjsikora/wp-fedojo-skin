@@ -92,8 +92,8 @@ main {
     height: auto; }
   .main__article a {
     color: black;
-    text-decoration: none;
-    text-align: center; }
+    text-align: center;
+    text-decoration: none; }
   .main__article h2 {
     text-align: center;
     font-size: 30px;
@@ -102,6 +102,8 @@ main {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
     font-size: 16px; }
+  .main__article p a {
+    color: blue; }
 
 .main__authorname {
   text-align: center;
@@ -138,6 +140,8 @@ main {
     font-family: "Open Sans", sans-serif;
     font-weight: 100;
     font-size: 16px; }
+    .single_article p a {
+      color: blue; }
 
 .single_article__header {
   position: relative;
@@ -181,6 +185,11 @@ main {
 
 .single_article__postmeta {
   position: absolute; }
+
+.single_article__comments {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px; }
 
 body {
   margin: 0px;

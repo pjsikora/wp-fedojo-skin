@@ -40,6 +40,9 @@
 
             </main>
 
+            <footer class="single_article__comments">
+                <?php comments_template(); ?>
+            </footer>
 
             <?php
         endwhile;

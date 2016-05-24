@@ -25,7 +25,7 @@
                             <?php echo get_avatar(get_the_author_email(), '60'); ?>
                         </div>
                     </div>
-                    
+
                     <div class="main__authorname">
                         post by
                         <strong>
@@ -35,8 +35,9 @@
                     <div class="main__postdate">
                         <?php the_date(); ?>
                     </div>
-                    <?php the_post_thumbnail(); ?>
-
+                    <a href="<?php the_permalink(); ?>">
+                        <?php the_post_thumbnail(); ?>
+                    </a>
                     <?php the_excerpt() ?>
 
 
