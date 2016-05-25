@@ -13,6 +13,204 @@ Text Domain: fedojoskin
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,700italic,600,600italic);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif; }
 
+h1 {
+  font-size: 36px; }
 
-@import "css/newstyle.css";
+h2 {
+  font-size: 30px; }
+
+p {
+  font-size: 16px; }
+
+/* Text decoration */
+/* Text align */
+/* Text transform */
+/* Display */
+/* Margin 0 auto */
+/* Absolute center vertically and horizontally */
+.header {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  background: #000; }
+  .header ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    font-family: "Open Sans", sans-serf;
+    font-weight: 600; }
+    .header ul > li {
+      float: left;
+      display: inline-block;
+      position: relative;
+      margin: 0 10px; }
+      .header ul > li:hover ul {
+        display: block;
+        width: 200px; }
+    .header ul ul {
+      display: none;
+      position: absolute;
+      left: 0; }
+      .header ul ul li {
+        display: block; }
+    .header ul > ul {
+      background: #000; }
+  .header a {
+    color: white;
+    text-decoration: none; }
+
+main {
+  padding: 50px 0; }
+
+.footer {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  width: 100%;
+  background: #d3d3d3;
+  padding: 50px 20px;
+  margin-top: 50px; }
+  .footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600; }
+
+.nav {
+  background: black;
+  text-align: center; }
+  .nav a {
+    color: white;
+    text-transform: uppercase;
+    padding: 10px; }
+
+.main__article {
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 30px;
+  margin-bottom: 40px; }
+  .main__article img {
+    width: 100%;
+    height: auto; }
+  .main__article a {
+    color: black;
+    text-align: center;
+    text-decoration: none; }
+  .main__article h2 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic; }
+  .main__article p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 16px; }
+  .main__article p a {
+    color: blue; }
+
+.main__authorname {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+  .main__authorname strong {
+    font-weight: 600; }
+
+.main__postdate {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 20px; }
+
+.navigation.pagination {
+  text-align: center; }
+
+.single_article {
+  margin: 0 auto; }
+  .single_article img {
+    width: 100%;
+    height: auto; }
+  .single_article a {
+    color: black;
+    text-decoration: none; }
+  .single_article h2 {
+    margin-top: 35px;
+    font-size: 24px;
+    font-style: italic; }
+  .single_article p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 16px; }
+    .single_article p a {
+      color: blue; }
+
+.single_article__header {
+  position: relative;
+  border-bottom: 4px solid orange;
+  margin-bottom: 65px; }
+
+.single_article__content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+.single_article__headline {
+  top: 50%;
+  left: 50%; }
+
+.single_article__postmeta {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  margin-left: -50px; }
+  .single_article__postmeta img {
+    border: 4px solid orange;
+      border-radius: 50%; }
+
+.single_article__authorname {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+  .single_article__authorname strong {
+    font-weight: 600; }
+
+.single_article__postdate {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px; }
+
+.single_article__postmeta {
+  position: absolute; }
+
+.single_article__comments {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map */

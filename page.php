@@ -9,7 +9,16 @@
 
 
             <header class="single_article__header">
+                <div class="single_article__image">
+                    <?php the_post_thumbnail(); ?>
+                </div>
 
+                <div class="single_article__postmeta">
+                    <div class="single_article__postatuhoravatar">
+                        <?php echo get_avatar(get_the_author_email(), '60'); ?>
+                    </div>
+
+                </div>
 
             </header>
 
@@ -31,6 +40,9 @@
 
             </main>
 
+            <footer class="single_article__comments">
+                <?php comments_template(); ?>
+            </footer>
 
             <?php
         endwhile;
