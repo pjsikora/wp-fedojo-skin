@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-    <main>
+    <main class="main__container">
         <?php if (have_posts()) : ?>
 
             <?php if (is_home() && !is_front_page()) : ?>

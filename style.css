@@ -37,6 +37,9 @@ p {
 /* Display */
 /* Margin 0 auto */
 /* Absolute center vertically and horizontally */
+ul {
+  font-family: "Open Sans", sans-serif; }
+
 .header {
   position: fixed;
   z-index: 9999;
@@ -95,6 +98,9 @@ main {
     color: white;
     text-transform: uppercase;
     padding: 10px; }
+
+.main__container {
+  padding: 50px 20px; }
 
 .main__article {
   max-width: 600px;
@@ -167,6 +173,9 @@ main {
   max-width: 600px;
   margin: 0 auto;
   padding: 0 20px; }
+  .single_article__content .wp-caption,
+  .single_article__content img {
+    width: 100% !important; }
 
 .single_article__headline {
   top: 50%;
