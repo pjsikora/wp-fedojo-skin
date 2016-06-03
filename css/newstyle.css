@@ -135,7 +135,8 @@ main {
   padding-top: 58px; }
   .single_article img {
     width: 100%;
-    height: auto; }
+    height: auto;
+    margin-bottom: -4px; }
   .single_article a {
     color: black;
     text-decoration: none; }
