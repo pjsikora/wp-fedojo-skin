@@ -20,12 +20,6 @@
                         <?php the_title(sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>'); ?>
                     </header>
 
-                    <div class="single_article__postmeta">
-                        <div class="single_article__postatuhoravatar">
-                            <?php echo get_avatar(get_the_author_email(), '60'); ?>
-                        </div>
-                    </div>
-
                     <div class="main__authorname">
                         post by
                         <strong>

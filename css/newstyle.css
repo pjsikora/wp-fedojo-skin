@@ -131,7 +131,8 @@ main {
   text-align: center; }
 
 .single_article {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 58px; }
   .single_article img {
     width: 100%;
     height: auto; }
@@ -199,6 +200,28 @@ main {
   max-width: 600px;
   margin: 0 auto;
   padding: 0 20px; }
+
+.comments_area textarea {
+  width: 100%;
+  resize: none; }
+
+.comment_list {
+  list-style: none; }
+  .comment_list img {
+    display: none; }
+
+.comment-author {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.form-submit .submit {
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  background: orange;
+  border: none;
+  font-weight: 600;
+  font-size: 20px; }
 
 body {
   margin: 0px;
