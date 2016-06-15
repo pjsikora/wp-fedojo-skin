@@ -38,6 +38,11 @@
                 </div>
                 <?php the_content() ?>
 
+                <div class="single_article__sidebar">
+                    <?php
+                        dynamic_sidebar('bottombar');
+                    ?>
+                </div>
             </main>
 
             <footer class="single_article__comments">
