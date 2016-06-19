@@ -22,6 +22,15 @@ function fedojo_sidebars() {
         'before_title'  => '<h3 class="widget-title">',
         'after_title'   => '</h2>',
     ) );
+    register_sidebar( array(
+        'name'          => __( 'Top Area' , 'fedojo'),
+        'id'            => 'topbar',
+        'description'   => __( 'Add widgets here to appear in your sidebar.' , 'fedojo'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
 }
 
 
